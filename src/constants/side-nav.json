@@ -43,6 +43,14 @@
         ]
     },
     {
+        "id":5,
+        "name":"Users",
+        "icon_path":"/dashboard/courses-book.svg",
+        "page_path":"users",
+        "fill_icon":"/dashboard/course-fill.svg",
+        "subLink": []
+    },
+    {
         "id":4,
         "name":"Skills",
         "icon_path":"/dashboard/courses-book.svg",

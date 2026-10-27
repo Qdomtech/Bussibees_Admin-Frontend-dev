@@ -8,6 +8,7 @@ import SkillBundleIndex from "@/pages/dashboard/skill-bundle/SkillBundleIndex";
 import SubjectType from "@/pages/dashboard/subject-type/SubjectType";
 import SkillCoursePage from "@/pages/dashboard/subjects/SkillCoursePage";
 import SubjectIndex from "@/pages/dashboard/subjects/SubjectIndex";
+import UserListPage from "@/pages/dashboard/users/UserListPage";
 import OTP from "@/pages/otp/OTP";
 import { Route, Routes } from "react-router";
 import Login from "../pages/login/Login";
@@ -36,6 +37,7 @@ export default function Index() {
                     <Route path="/skill-course" element={<SubjectIndex />} />
                     <Route path="/skill-course/:slug" element={<SkillCoursePage />} />
                     <Route path="/skill-bundle" element={<SkillBundleIndex />} />
+                    <Route path="/users" element={<UserListPage />} />
                 </Route>
             </Route>
         </Routes>
