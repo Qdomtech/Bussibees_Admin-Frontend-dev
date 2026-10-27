@@ -78,6 +78,7 @@ export default function UserListPage() {
                     title="Users List"
                     col_type="start"
                     isAddBtn={false}
+                    handleAddNew={() => {}}
                     base="!w-full !max-w-full"
                     headbar="rounded-tr-[12px]"
                     bodyClass="h-auto"
